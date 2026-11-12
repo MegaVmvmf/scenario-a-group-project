@@ -188,7 +188,7 @@ public class CampusRouteApp {
             g2.drawLine(colW, 10, colW, h - 10);
             g2.drawLine(colW * 2, 10, colW * 2, h - 10);
 
-            // Column 1: Expression Tree (Step 6)
+            // Column 1: Expression Tree
             g2.setColor(new Color(30, 58, 138));
             g2.setFont(new Font("SansSerif", Font.BOLD, 13));
             g2.drawString("Step 6: Expression Tree (AST)", 15, 25);
@@ -404,7 +404,7 @@ public class CampusRouteApp {
             recommendationArea = createMonospaceArea();
             recommendationArea.setText("Adjust your times, fares, and preferences on the left, then click 'Evaluate Commute Options'.");
             tabs.addTab("1. Recommendation & Logic Rules", new JScrollPane(recommendationArea));
-// Tab 2: Truth Table Generator (Step 5)
+// Tab 2: Truth Table Generator
             JPanel ttPanel = new JPanel(new BorderLayout(5, 5));
             JPanel ttHeader = new JPanel(new FlowLayout(FlowLayout.LEFT));
             ttHeader.add(new JLabel("Select Eligibility Rule for Truth Table & AST:"));
